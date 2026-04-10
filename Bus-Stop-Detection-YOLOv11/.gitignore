@@ -1,0 +1,22 @@
+# Python settings
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# YOLO/Ultralytics specific
+runs/
+inference_results/
+*.pt
+*.onnx
+datasets/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
